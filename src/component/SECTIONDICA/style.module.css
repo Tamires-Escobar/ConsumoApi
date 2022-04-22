@@ -1,0 +1,72 @@
+.containerDicas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #f23e02;
+}
+.post {
+  width: 70%;
+  background-color: #fef5c8;
+}
+.titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  width: 70%;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-family: "Lobster";
+  font-style: normal;
+  font-weight: lighter;
+  background-color: rgba(170, 170, 132, 0.671);
+  color: #19495f;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.subtitulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-left: 30%;
+  font-size: 20px;
+  font-weight: lighter;
+  font-style: italic;
+  font-family: "Lobster";
+  text-align: justify;
+  color: #141414dc;
+}
+
+.containerImg img {
+  width: 70%;
+  border-radius: 90px;
+  margin-left: 20%;
+  box-shadow: 1px 2px 20px 2px #013750;
+}
+
+.botao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  height: 30px;
+  margin-bottom: 100px;
+  margin-left: 40%;
+  border-radius: 30px;
+  background-color: #013750;
+  color: ivory;
+}
+
+.botao:hover {
+  background-color: #157a8c;
+  color: #fef5c8;
+}
+.subtitulo:hover {
+  transform: scale(1.6);
+  transition: linear 2s;
+}

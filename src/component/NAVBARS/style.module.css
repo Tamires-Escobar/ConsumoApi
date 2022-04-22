@@ -1,0 +1,38 @@
+.container {
+  display: inline-block;
+  width: 100%;
+  padding: 8px;
+  background-color: #00988d;
+  color: #fef5c8;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 80px;
+  font-style: italic;
+  font-weight: lighter;
+  font-family: "Square Peg";
+}
+
+.teste {
+  width: 30%;
+  height: 0px;
+  left: 30px;
+  margin-bottom: 20px;
+  border: 1px solid rgb(204, 201, 201);
+  justify-content: center;
+  margin-left: 35%;
+}
+.txtheader {
+  display: flex;
+  justify-content: center;
+  font-family: "Ms Madi";
+  font-weight: lighter;
+  font-size: 35px;
+  font-style: normal;
+  margin-top: -15px;
+}
+h1:hover {
+  color: #f23e02;
+  transition: all 0.3s;
+}

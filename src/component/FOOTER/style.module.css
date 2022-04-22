@@ -1,0 +1,51 @@
+.containerFooter {
+  background-color: #2c6b74;
+  color: blanchedalmond;
+  display: flex;
+  height: 150px;
+}
+.redesSociais{
+  margin-left: 20px;
+}
+.contato h2 {
+  margin-left: 30px;
+  font-family: "Square peg";
+  font-size: 28px;
+  font-weight: lighter;
+  font-style: italic;
+}
+.pessoais {
+  position: relative;
+  
+  margin-left: 30%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  display: inline;
+  width: 50%;
+  font-size: 30px;
+}
+
+.links{
+  margin-top: 50px;
+  margin-left: 400px;
+  font-size: 40px;
+}
+.pessoais a {
+  margin-left: 50px;
+  margin-top: 200px;
+  align-items: baseline;
+  color: orangered;
+  width: 30%;
+  font-size: 15px;
+  font-family: "Lobster";
+  font-weight: lighter;
+  font-style: italic;
+  text-decoration-line: none;
+}
+.pessoais:hover {
+  color: #16f202;
+}
+.pessoais a:hover {
+  color: #fef5c8;
+}
