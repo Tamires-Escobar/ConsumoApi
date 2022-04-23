@@ -7,17 +7,21 @@
 .redesSociais{
   margin-left: 20px;
 }
+.contato h1{
+  font-size: 30px;
+}
 .contato h2 {
   margin-left: 30px;
   font-family: "Square peg";
-  font-size: 28px;
+  font-size: 20px;
   font-weight: lighter;
   font-style: italic;
 }
+
 .pessoais {
   position: relative;
   
-  margin-left: 30%;
+  margin-left: 10%;
   justify-content: center;
   align-items: center;
   flex-direction: row;
@@ -28,8 +32,8 @@
 
 .links{
   margin-top: 50px;
-  margin-left: 400px;
-  font-size: 40px;
+  margin-left: 100px;
+  font-size: 30px;
 }
 .pessoais a {
   margin-left: 50px;
@@ -48,4 +52,18 @@
 }
 .pessoais a:hover {
   color: #fef5c8;
+}
+
+@media(max-width: 500px){
+  .links{
+    margin-top: -10px;
+    
+  }
+  .pessoais{
+    width: 20px;
+    margin-top: -10px;
+  }
+  .redesSociais{
+    margin-top: -10px;
+  }
 }
